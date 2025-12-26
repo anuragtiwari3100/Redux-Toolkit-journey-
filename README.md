@@ -40,6 +40,7 @@ Redux is a **state management library** used to manage and centralize applicatio
 
 1.Clone the repository
 git clone  https://github.com/anuragtiwari3100/Redux-Toolkit-journey-
+
 2.Install dependencies
 npm install
 
