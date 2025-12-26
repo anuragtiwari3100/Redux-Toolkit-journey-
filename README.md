@@ -21,28 +21,6 @@ Redux is a **state management library** used to manage and centralize applicatio
 ## 📂 Folder Structure
 
 
-
-src/
-│── app/
-│ └── store.js
-│
-│── features/
-│ └── counter/
-│ ├── counterSlice.js
-│ └── Counter.jsx
-│
-│── components/
-│
-│── App.js
-│── main.jsx
-
-
-
-
-
-
-
-
 ---
 
 ## 🔑 Key Concepts Covered
