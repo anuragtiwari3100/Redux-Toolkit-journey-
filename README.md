@@ -1,4 +1,6 @@
 # Redux Toolkit Learning Repository 🚀
+![Redux Toolkit Banner](./img.png)
+
 
 This repository is created to learn and practice **Redux** and **Redux Toolkit** in a simple and structured way.  
 It covers core Redux concepts with practical examples, especially for React applications.
