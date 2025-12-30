@@ -28,7 +28,7 @@ function App() {
   <div >
  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '50px 0', background: '#111', flexDirection: 'column' }}>
   <style>{keyframes}</style>
-  <h1 style={awesomeStyle}>Radhe-Radhe from </h1>
+  <h1 style={awesomeStyle}>Radhe-Radhe  </h1>
 </div>
 
      <AddTodo/>

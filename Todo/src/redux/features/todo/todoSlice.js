@@ -34,18 +34,19 @@ export const  todoSlice =  createSlice({
   );
 },
 
-        // updateTodo: (state, action) => {
-        //     const { id, text } = action.payload;
-        //     const existingTodo = state.todos.find((todo) => todo.id === id);
-        //     if (existingTodo) {
-        //         existingTodo.text = text;
-        //     }
-        // }
+        updateTodo: (state, action) => {
+            const { id, text } = action.payload;
+            const existingTodo = state.todos.find((todo) => todo.id === id);
+            if (existingTodo) {
+                existingTodo.text = text;
+            }
+        }
+        
         
     }
 
 })
 
 
-export const{x,addTodo,removeTodo} = todoSlice.actions;
+export const{x,addTodo,removeTodo,updateTodo} = todoSlice.actions;
 export default todoSlice.reducer;
